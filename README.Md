@@ -2,9 +2,12 @@
 
 ```hash
 │  README.Md
-│
+│  
 ├─#cmd
 │      0. tree.md
+│      
+├─#git
+│      0. RPC failed.md
 │
 ├─#ie
 │      0. IE8 下小心使用console.log().md
