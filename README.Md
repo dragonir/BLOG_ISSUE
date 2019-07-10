@@ -1,11 +1,12 @@
 # BLOG_ISSUE
 
 ```hash
-│  README.Md
+F:.
+│  README.MD
 │  
 ├─#cmd
 │      0. tree.md
-│      
+│
 ├─#css
 │      0. box-sizing border-box.md
 │
@@ -34,6 +35,7 @@
 │      2. 41个JavaScript实用技巧.md
 │      3. 函数防抖和节流.md
 │      4. IE兼容indexOf_lastIndexOf_filter_map.md
+│      5. jQuery AJAX pipe.md
 │
 ├─#pug
 │      pug 基本语法.md
