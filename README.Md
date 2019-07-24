@@ -1,9 +1,8 @@
 # BLOG_ISSUE
 
 ```hash
-F:.
 │  README.MD
-│
+│  
 ├─#cmd
 │      0. tree.md
 │
@@ -11,6 +10,8 @@ F:.
 │      0. box-sizing border-box.md
 │      1. css去掉浏览器打印样式中的页眉和页脚.md
 │      2. CSS3动画控制的暂停与运行.md
+│      3. CSS3 animation-direction 属性.md
+│      4. CSS3 margin-before margin-start.md
 │
 ├─#git
 │      0. RPC failed.md
@@ -39,6 +40,8 @@ F:.
 │      4. IE兼容indexOf_lastIndexOf_filter_map.md
 │      5. jQuery AJAX pipe.md
 │      6. iframe父子页面的通信.md
+│      7. apply、call、bind.md
+│      8. 高阶函数map&reduce&filter.md
 │
 ├─#pug
 │      0. pug 基本语法.md
