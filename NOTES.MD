@@ -51,7 +51,7 @@ var b = "0";
 var c = "''";
 var d = Boolean( a && b && c );       // true
 
-var a = [];           // 空数组——是真值还是假值? 
+var a = [];           // 空数组——是真值还是假值?
 var b = {};           // 空对象——是真值还是假值?
 var c = function(){};  // 空函数——是真值还是假值?
 var d = Boolean( a && b && c );       // true
@@ -96,7 +96,7 @@ if (~a.indexOf( "lo" )) {
 }
 ~a.indexOf( "ol" );       // 0  <-- 假值!
 !~a.indexOf( "ol" );      // true
-if (!~a.indexOf( "ol" )) { // true 
+if (!~a.indexOf( "ol" )) { // true
   // 没有找到匹配!
 }
 ```
@@ -251,4 +251,48 @@ false == {};                    // false
 2 == [2];                     // true
 "" == [null];                 // true
 0 == "\n";                    // true
+```
+
+## 关联
+
+```js
+a ? b : c ? d : e;
+等于
+a ? b : (c ? d : e)
+
+true ? false : true ? true : true;      // false
+```
+
+```js
+var a = 42;
+var b = "foo";
+var c = false;
+var d = a && b || c ? c || b ? a : c && b : a;
+d;      // 42
+
+// 掌握了优先级和关联等相关知识之后，就能够根据组合规则将上面的代码分解如下:
+((a && b) || c) ? ((c || b) ? a : (c && b)) : a
+
+// 也可以通过缩进显式让代码更容易理解:
+(
+(a && b)
+|| c
+)
+?
+(
+(c || b)
+? a
+:
+(c && b)
+)
+:
+a
+
+// 现在来逐一执行。
+// (1) (a && b) 结果为 "foo"。
+// (2) "foo" || c 结果为 "foo"。
+// (3) 第一个 ? 中，"foo" 为真值。
+// (4) (c || b) 结果为 "foo"。
+// (5) 第二个 ? 中，"foo" 为真值。
+// (6) a 的值为 42。
 ```
