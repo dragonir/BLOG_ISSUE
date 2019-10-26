@@ -1,6 +1,7 @@
 # BLOG_ISSUE
 
 ```hash
+│  NOTES.MD
 │  README.MD
 │  
 ├─#cmd
@@ -43,6 +44,7 @@
 │      6. iframe父子页面的通信.md
 │      7. apply、call、bind.md
 │      8. 高阶函数map&reduce&filter.md
+│      9. watermark.js实现照片添加模板和二维码.md
 │
 ├─#pug
 │      0. pug 基本语法.md
