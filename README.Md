@@ -18,6 +18,7 @@
 ├─#git
 │      0. RPC failed.md
 │      1. git生成SSH.md
+│      2. git常用指令.md
 │
 ├─#gulp
 │      0. gulp复制整个文件或文件夹到指定目录.md
