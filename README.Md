@@ -3,7 +3,7 @@
 ```hash
 │  NOTES.MD
 │  README.MD
-│  
+│
 ├─#cmd
 │      0. tree.md
 │
@@ -38,6 +38,7 @@
 ├─#javascript
 │      0. async 函数的含义和用法.md
 │      1. mouseout和mouseleave区别.md
+│      10. axios.md
 │      2. 41个JavaScript实用技巧.md
 │      3. 函数防抖和节流.md
 │      4. IE兼容indexOf_lastIndexOf_filter_map.md
