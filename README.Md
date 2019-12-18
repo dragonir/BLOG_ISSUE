@@ -2,9 +2,9 @@
 
 ```hash
 │  NOTES.MD
-│  README.MD
+│  README.MD        
 │  TODO.MD
-│
+│  
 ├─#angular
 │      00. 安全引用外部URL.md
 │      01. angular2.0配置同时使用localhost和本机IP访问项目.md
@@ -33,6 +33,7 @@
 │
 ├─#html
 │      00. a标签属性 rel=''noopener noreferrer''.md
+│      01. HTML5前端性能优化—浏览器兼容与前端性能优化.md
 │
 ├─#ie
 │      00. IE8 下小心使用console.log().md
@@ -55,6 +56,7 @@
 │      09. watermark.js实现照片添加模板和二维码.md
 │      10. axios.md
 │      11. sessionStorage传参.md
+│      12. 使用cookie保存用户的登录状态.md
 │
 ├─#pug
 │      00. pug 基本语法.md
