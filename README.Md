@@ -2,9 +2,9 @@
 
 ```hash
 │  NOTES.MD
-│  README.MD        
+│  README.MD
 │  TODO.MD
-│  
+│
 ├─#angular
 │      00. 安全引用外部URL.md
 │      01. angular2.0配置同时使用localhost和本机IP访问项目.md
@@ -21,6 +21,7 @@
 │      03. CSS3 animation-direction 属性.md
 │      04. CSS3 margin-before margin-start.md
 │      05. 使用系统默认字体.md
+│      06. iphoneX安全区适配.md
 │
 ├─#git
 │      00. RPC failed.md
@@ -34,6 +35,7 @@
 ├─#html
 │      00. a标签属性 rel=''noopener noreferrer''.md
 │      01. HTML5前端性能优化—浏览器兼容与前端性能优化.md
+│      02. autocapitalize-控制文本输入时是否自动大写.md
 │
 ├─#ie
 │      00. IE8 下小心使用console.log().md
@@ -66,4 +68,5 @@
 │      00. 常用指令.md
 │
 └─#vue
+       00. vue监听路由变化.md
 ```
