@@ -13,3 +13,7 @@
 * [ ] 整理SCOFILED NOTES angular
 * [ ] 整理SCOFILED NOTES vue
 * [x] 整理SCOFILED NOTES javascript
+
+## 书籍
+
+* [ ] 《学习正则表达式》
