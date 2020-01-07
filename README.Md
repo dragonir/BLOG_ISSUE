@@ -4,12 +4,14 @@
 │  NOTES.MD
 │  README.MD
 │  TODO.MD
-│  
+│
 ├─#angular
 │      00. 安全引用外部URL.md
 │      01. angular2.0配置同时使用localhost和本机IP访问项目.md
 │      02. angular4 路由守卫.md
 │      03. angular2 router中的路由跳转navigate.md
+│      04. angular4 httpClient post用法.md
+│      05. angular4路由相关知识.md
 │
 ├─#cmd
 │      00. tree.md
