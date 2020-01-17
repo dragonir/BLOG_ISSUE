@@ -4,7 +4,7 @@
 │  NOTES.MD
 │  README.MD
 │  TODO.MD
-│
+│  
 ├─#angular
 │      00. 安全引用外部URL.md
 │      01. angular2.0配置同时使用localhost和本机IP访问项目.md
@@ -63,6 +63,10 @@
 │      10. axios.md
 │      11. sessionStorage传参.md
 │      12. 使用cookie保存用户的登录状态.md
+│      13. JavaScript风格指南.md
+│
+├─#plugins
+│      00. datatables 添加title属性.md
 │
 ├─#pug
 │      00. pug 基本语法.md
