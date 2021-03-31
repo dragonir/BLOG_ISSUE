@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="480">
+    <filter id="filter">
+        <feTurbulence result="1" x="0" y="0%" width="33%" height="33%" type="turbulence" baseFrequency="0.1" numOctaves="1" />
+        <feTurbulence result="2" x="33.5%" y="0%" width="33%" height="33%" type="turbulence" baseFrequency="0.01" numOctaves="1" seed="1"/>
+        <feTurbulence result="3" x="67%" y="0%" width="33%" height="33%" type="turbulence" baseFrequency="0.01" numOctaves="1" seed="2"/>
+        <feTurbulence result="4" x="0" y="33.5%" width="33%" height="33%" type="turbulence" baseFrequency="0.1" numOctaves="5" />
+        <feTurbulence result="5" x="33.5%" y="33.5%" width="33%" height="33%" type="fractalNoise" baseFrequency="0.01"/>
+        <feTurbulence result="6" x="67%" y="33.5%" width="33%" height="33%" type="fractalNoise" baseFrequency="0.01 0.1" numOctaves="5"/>
+        <feTurbulence result="7" x="0" y="67%" width="33%" height="33%" type="fractalNoise" baseFrequency="1" numOctaves="5" />
+        <feTurbulence result="8" x="33.5%" y="67%" width="33%" height="33%" type="fractalNoise" baseFrequency="0.1 0.01" numOctaves="5" />
+        <feTurbulence result="9" x="67%" y="67%" width="33%" height="33%" type="fractalNoise" baseFrequency="0.1"/>
+        <feMerge>
+            <feMergeNode in="1"/>
+            <feMergeNode in="2"/>
+            <feMergeNode in="3"/>
+            <feMergeNode in="4"/>
+            <feMergeNode in="5"/>
+            <feMergeNode in="6"/>
+            <feMergeNode in="7"/>
+            <feMergeNode in="8"/>
+            <feMergeNode in="9"/>
+        </feMerge>
+    </filter>
+    <rect width="100%" height="100%" filter="url(#filter)"/>
+</svg>
